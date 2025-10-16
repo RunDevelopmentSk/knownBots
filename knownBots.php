@@ -14,9 +14,9 @@ $knownBots = array(
     // microsoft.com
     'MSNBot|msrbot|bingbot|bingadsbot|BingPreview|msnbot-(UDiscovery|NewsBlogs)|adidxbot|iisbot|MicrosoftPreview|microsoft-flow/' => 'noSession',
     // meta.com
-    'facebook(?:catalog|externalhit|externalua|platform|scraper)|meta-externalagent|meta-externalfetcher|FacebookBot' => 'noSession',
+    'facebook(?:catalog|externalhit|externalua|platform|scraper)|meta-externalagent|meta-externalfetcher|FacebookBot' => 'forbidden',
     // amazon.com
-    'Amazonbot|AmazonAdBot|ELB-HealthChecker' => 'noSession',
+    'Amazonbot|AmazonAdBot|ELB-HealthChecker' => 'forbidden',
     // seznam.cz, zbozi.cz
     'SeznamEmailProxy|Seznam-Zbozi-robot|SeznamBot|SklikBot|Seznam screenshot-generator' => 'noSession',
     // heureka.cz
@@ -26,14 +26,14 @@ $knownBots = array(
     // custom
     //
     // meta.com
-    'MetaWebIndexer' => 'noSession',
-    'meta-externalads' => 'noSession',
+    'MetaWebIndexer' => 'forbidden',
+    'meta-externalads' => 'forbidden',
     // other
-    'DataForSeoBot' => 'noSession',
-    'SemrushBot' => 'noSession',
-    'AhrefsBot' => 'noSession',
-    'AwarioBot' => 'noSession',
-    'Barkrowler' => 'noSession',
+    'DataForSeoBot' => 'forbidden',
+    'SemrushBot' => 'forbidden',
+    'AhrefsBot' => 'forbidden',
+    'AwarioBot' => 'forbidden',
+    'Barkrowler' => 'forbidden',
     'OAI-SearchBot' => 'noSession',
     'GPTBot' => 'noSession',
 );
