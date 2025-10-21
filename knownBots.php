@@ -1,5 +1,6 @@
 <?php
 
+// list of known bots and their restrictions
 $knownBots = array(
     //
     // matomo-org
@@ -27,6 +28,7 @@ $knownBots = array(
     //
     // meta.com
     'MetaWebIndexer' => 'accessForbidden',
+    'meta-webindexer' => 'accessForbidden',
     'meta-externalads' => 'accessForbidden',
     // other
     'DataForSeoBot' => 'accessForbidden',
