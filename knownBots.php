@@ -42,4 +42,7 @@ $knownBots = array(
     'Barkrowler' => 'accessForbidden',
     'OAI-SearchBot' => 'sessionForbidden',
     'GPTBot' => 'sessionForbidden',
+    'GeedoProductSearch' => 'accessForbidden',
+    // generic detections - official bots user agents contain URL of bot info page
+    '\+https://' => 'sessionForbidden',
 );
